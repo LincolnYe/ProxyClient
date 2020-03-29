@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"net"
 
-	proxyclient "github.com/missdeer/ProxyClient"
+	proxyclient "github.com/LincolnYe/ProxyClient"
 )
 
 func NewRandom(proxies []proxyclient.Dial) proxyclient.Dial {
